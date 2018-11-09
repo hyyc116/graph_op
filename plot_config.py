@@ -6,6 +6,7 @@
 '''
 
 import matplotlib
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import matplotlib as mpl
 import matplotlib.colors as colors
@@ -17,7 +18,7 @@ import pylab
 #### 显示中文的设置
 # reload(sys)
 # sys.setdefaultencoding('utf-8')
-# mpl.rcParams['font.sans-serif'] = ['SimHei'] # 指定默认字体
+# mpl.rcParams['font.sans-serif'] = ['SimHei'] # 指定默认字体，需要系统内有对应的字体
 # mpl.rcParams['axes.unicode_minus'] = False
 
 ## 最大的chunksize
