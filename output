@@ -1,0 +1,10 @@
+digraph {
+	node [fixedwith=true height=0.2 shape=circle width=0.2]
+	edge [arrowhead=open]
+	graph [rankdir=TB]
+	P2 -> P4 [style=dashed]
+	P3 -> P5 [style=dashed]
+	P1 -> P3 [style=dashed]
+	P -> P2 [style=dashed]
+	P -> P1 [style=dashed]
+}

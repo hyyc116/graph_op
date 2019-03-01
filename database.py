@@ -15,7 +15,6 @@ class dbop:
         self._cursor = self._db.cursor()
 
 
-
     def query_database(self,sql):
         self._cursor.close()
         self._cursor = self._db.cursor()
